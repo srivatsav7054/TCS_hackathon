@@ -6,7 +6,7 @@ const BASE_URL = "http://localhost:8000";
 // Set to false to use the real FastAPI backend.
 // Affects: uploadClaim() and fetchSettlements() only.
 // fetchClaims() / fetchClaim() already fall back automatically on network error.
-export const MOCK_MODE = true;
+export const MOCK_MODE = false;
 // ───────────────────────────────────────────────────────────────────────────
 
 async function safeFetch(url) {

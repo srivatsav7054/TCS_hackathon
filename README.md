@@ -16,11 +16,19 @@ This repository contains the integrated solution for ClaimWise AI, a cutting-edg
 
 ## Setup Instructions
 
+### Prerequisites
+1. You will need API keys for the AI extraction. Rename ackend/.env.example to ackend/.env and insert your API keys:
+   - GROQ_API_KEY (Required for primary fast processing)
+   - OPENAI_API_KEY (Optional fallback for complex cases)
+
 ### Backend
-1. Navigate to the ackend directory.
+1. Navigate to the ackend/backend directory.
 2. Install dependencies: pip install -r requirements.txt (or equivalent).
-3. Set your GROQ_API_KEY (and OPENAI_API_KEY if using fallback) in your environment.
-4. Run the server: python main.py or uvicorn main:app --reload
+3. Start the server: 
+   `ash
+   python main.py
+   `
+   *(Note: The repository includes a pre-populated SQLite database (data/claimwise.db) containing 12 processed claims so you can view the dashboard immediately without re-running the extraction pipeline).*
    The backend will start at http://localhost:8000
 
 ### Frontend
@@ -30,3 +38,8 @@ pm install
 3. Start the development server: 
 pm run dev
    The frontend will be available at http://localhost:5173
+
+## Architecture Highlights
+- Uses a local SQLite database (claimwise.db) for persistence.
+- Employs a fallback model architecture to guarantee uptime and reliability during LLM API turbulence.
+- The claimwise-ai/src/api/claimsApi.js is set to point to the real backend (MOCK_MODE = false).
