@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+/* ─── Design Tokens ─────────────────────────────────────────────── */
+@theme {
+  /* Fonts */
+  --font-sans:  "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-mono:  "IBM Plex Mono", ui-monospace, monospace;
+
+  /* Brand palette — exact values, not Tailwind defaults */
+  --color-bg:           #F7F8FA;
+  --color-surface:      #FFFFFF;
+  --color-border:       #E2E5EA;
+  --color-primary:      #1E3A5F;
+  --color-accent:       #2C6E8C;
+  --color-accent-hover: #235A75;
+
+  /* Text */
+  --color-text-primary:   #1A1D23;
+  --color-text-secondary: #5B6472;
+  --color-text-muted:     #8C95A0;
+
+  /* Semantic status */
+  --color-critical:       #DC2626;
+  --color-critical-bg:    #FEF2F2;
+  --color-critical-border:#FECACA;
+  --color-urgent:         #D97706;
+  --color-urgent-bg:      #FFFBEB;
+  --color-urgent-border:  #FDE68A;
+  --color-normal:         #64748B;
+  --color-normal-bg:      #F8FAFC;
+  --color-normal-border:  #E2E8F0;
+
+  /* Fraud — categorically distinct from criticality red */
+  --color-fraud:          #9F1239;
+  --color-fraud-bg:       #FFF1F2;
+  --color-fraud-border:   #FECDD3;
+
+  /* Type scale (px → rem at 16px base) */
+  --text-2xs:  0.6875rem;  /* 11px */
+  --text-xs:   0.75rem;    /* 12px */
+  --text-sm:   0.875rem;   /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg:   1.25rem;    /* 20px */
+  --text-xl:   1.75rem;    /* 28px */
+  --text-2xl:  2.25rem;    /* 36px */
+}
+
+/* ─── Base reset ────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-text-primary);
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  min-height: 100vh;
+}
+
+/* ─── Utility classes that Tailwind can't token-match ───────────── */
+
+/* Font families */
+.font-display { font-family: var(--font-display); }
+.font-mono    { font-family: var(--font-mono); }
+.font-sans    { font-family: var(--font-sans); }
+
+/* Precise type scale */
+.text-2xs  { font-size: var(--text-2xs);  line-height: 1rem; }
+.text-xs   { font-size: var(--text-xs);   line-height: 1.25rem; }
+.text-sm   { font-size: var(--text-sm);   line-height: 1.375rem; }
+.text-base { font-size: var(--text-base); line-height: 1.5rem; }
+.text-lg   { font-size: var(--text-lg);   line-height: 1.75rem; }
+.text-xl   { font-size: var(--text-xl);   line-height: 2.25rem; }
+.text-2xl  { font-size: var(--text-2xl);  line-height: 2.75rem; }
+
+/* Brand colors as utilities */
+.text-primary   { color: var(--color-text-primary); }
+.text-secondary { color: var(--color-text-secondary); }
+.text-muted     { color: var(--color-text-muted); }
+.text-brand     { color: var(--color-primary); }
+.text-accent    { color: var(--color-accent); }
+.text-critical  { color: var(--color-critical); }
+.text-urgent    { color: var(--color-urgent); }
+.text-normal    { color: var(--color-normal); }
+.text-fraud     { color: var(--color-fraud); }
+
+.bg-page      { background-color: var(--color-bg); }
+.bg-surface   { background-color: var(--color-surface); }
+.border-ui    { border-color: var(--color-border); }
+
+/* Card base — 1px hairline, no heavy shadow */
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+}
+
+/* Subtle elevation — only for interactive/hover states */
+.card-hover {
+  transition: box-shadow 0.15s ease, border-color 0.15s ease;
+}
+.card-hover:hover {
+  box-shadow: 0 2px 8px rgba(30, 58, 95, 0.08);
+  border-color: #C8CDD6;
+}
+
+/* Status badge bases */
+.badge-critical {
+  color: var(--color-critical);
+  background-color: var(--color-critical-bg);
+  border: 1px solid var(--color-critical-border);
+}
+.badge-urgent {
+  color: var(--color-urgent);
+  background-color: var(--color-urgent-bg);
+  border: 1px solid var(--color-urgent-border);
+}
+.badge-normal {
+  color: var(--color-normal);
+  background-color: var(--color-normal-bg);
+  border: 1px solid var(--color-normal-border);
+}
+.badge-fraud {
+  color: var(--color-fraud);
+  background-color: var(--color-fraud-bg);
+  border: 1px solid var(--color-fraud-border);
+}
+
+/* Accent button */
+.btn-accent {
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: var(--text-sm);
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+.btn-accent:hover { background-color: #162e4d; }
+
+.btn-ghost {
+  background-color: transparent;
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+  font-weight: 500;
+  padding: 0.4375rem 0.875rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--color-border);
+  cursor: pointer;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+.btn-ghost:hover {
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+}
+
+/* Table row hover */
+.queue-row {
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+.queue-row:hover { background-color: #F0F4F8; }
+.queue-row.row-critical { background-color: #FEF8F8; }
+.queue-row.row-critical:hover { background-color: #FEEFEF; }
+
+/* Thin scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #C8CDD6; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #9AA3B0; }
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* Section label style */
+.section-label {
+  font-family: var(--font-sans);
+  font-size: var(--text-2xs);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+/* Monospace data — IDs, amounts, scores */
+.data-mono {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Recharts tooltip */
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  border: 1px solid var(--color-border) !important;
+  border-radius: 0.375rem !important;
+  box-shadow: 0 2px 8px rgba(30,58,95,0.1) !important;
+  font-family: var(--font-sans) !important;
+  font-size: var(--text-xs) !important;
+  padding: 8px 12px !important;
+}
