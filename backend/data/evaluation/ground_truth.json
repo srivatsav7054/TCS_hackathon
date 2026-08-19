@@ -1,0 +1,156 @@
+[
+  {
+    "claim_id": "ICLM001",
+    "expected_claim_type": "MOTOR",
+    "expected_team": "Motor",
+    "expected_criticality": "LOW",
+    "expected_complexity": "LOW",
+    "expected_risk_band": "LOW",
+    "expected_missing_documents": [],
+    "expected_priority_band": "MEDIUM",
+    "expected_next_action": "APPROVE",
+    "expected_human_review": false
+  },
+  {
+    "claim_id": "ICLM002",
+    "expected_claim_type": "MOTOR",
+    "expected_team": "Motor",
+    "expected_criticality": "LOW",
+    "expected_complexity": "LOW",
+    "expected_risk_band": "LOW",
+    "expected_missing_documents": [
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "expected_priority_band": "LOW",
+    "expected_next_action": "REQUEST_DOCUMENTS",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM003",
+    "expected_claim_type": "MOTOR",
+    "expected_team": "Motor",
+    "expected_criticality": "MEDIUM",
+    "expected_complexity": "LOW",
+    "expected_risk_band": "LOW",
+    "expected_missing_documents": [
+      "vehicle_photos"
+    ],
+    "expected_priority_band": "URGENT",
+    "expected_next_action": "REQUEST_DOCUMENTS",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM004",
+    "expected_claim_type": "MOTOR",
+    "expected_team": "Senior Review",
+    "expected_criticality": "HIGH",
+    "expected_complexity": "HIGH",
+    "expected_risk_band": "MEDIUM",
+    "expected_missing_documents": [],
+    "expected_priority_band": "HIGH",
+    "expected_next_action": "ESC_SENIOR_REVIEW",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM005",
+    "expected_claim_type": "HEALTH",
+    "expected_team": "Health",
+    "expected_criticality": "CRITICAL",
+    "expected_complexity": "MEDIUM",
+    "expected_risk_band": "HIGH",
+    "expected_missing_documents": [],
+    "expected_priority_band": "URGENT",
+    "expected_next_action": "REJECT",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM006",
+    "expected_claim_type": "HEALTH",
+    "expected_team": "Health",
+    "expected_criticality": "MEDIUM",
+    "expected_complexity": "MEDIUM",
+    "expected_risk_band": "HIGH",
+    "expected_missing_documents": [],
+    "expected_priority_band": "MEDIUM",
+    "expected_next_action": "ESC_SIU",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM007",
+    "expected_claim_type": "HEALTH",
+    "expected_team": "Health",
+    "expected_criticality": "LOW",
+    "expected_complexity": "LOW",
+    "expected_risk_band": "MEDIUM",
+    "expected_missing_documents": [
+      "medical_report"
+    ],
+    "expected_priority_band": "LOW",
+    "expected_next_action": "REQUEST_DOCUMENTS",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM008",
+    "expected_claim_type": "PROPERTY",
+    "expected_team": "Property",
+    "expected_criticality": "MEDIUM",
+    "expected_complexity": "MEDIUM",
+    "expected_risk_band": "HIGH",
+    "expected_missing_documents": [],
+    "expected_priority_band": "MEDIUM",
+    "expected_next_action": "REJECT",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM009",
+    "expected_claim_type": "PROPERTY",
+    "expected_team": "SIU",
+    "expected_criticality": "HIGH",
+    "expected_complexity": "HIGH",
+    "expected_risk_band": "HIGH",
+    "expected_missing_documents": [],
+    "expected_priority_band": "HIGH",
+    "expected_next_action": "ESC_SIU",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM010",
+    "expected_claim_type": "PROPERTY",
+    "expected_team": "Property",
+    "expected_criticality": "HIGH",
+    "expected_complexity": "HIGH",
+    "expected_risk_band": "LOW",
+    "expected_missing_documents": [],
+    "expected_priority_band": "HIGH",
+    "expected_next_action": "APPROVE",
+    "expected_human_review": true
+  },
+  {
+    "claim_id": "ICLM011",
+    "expected_claim_type": "LIFE",
+    "expected_team": "Life",
+    "expected_criticality": "MEDIUM",
+    "expected_complexity": "LOW",
+    "expected_risk_band": "LOW",
+    "expected_missing_documents": [],
+    "expected_priority_band": "MEDIUM",
+    "expected_next_action": "APPROVE",
+    "expected_human_review": false
+  },
+  {
+    "claim_id": "ICLM012",
+    "expected_claim_type": "LIFE",
+    "expected_team": "Life",
+    "expected_criticality": "HIGH",
+    "expected_complexity": "MEDIUM",
+    "expected_risk_band": "LOW",
+    "expected_missing_documents": [
+      "medical_history"
+    ],
+    "expected_priority_band": "URGENT",
+    "expected_next_action": "REQUEST_DOCUMENTS",
+    "expected_human_review": true
+  }
+]

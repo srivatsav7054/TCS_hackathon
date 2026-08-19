@@ -1,0 +1,227 @@
+[
+  {
+    "customer_id": "CUS001",
+    "name": "Arjun Sharma",
+    "age": 63,
+    "city": "Hyderabad",
+    "customer_since": "2018-04-13",
+    "previous_claim_count": 3,
+    "annual_income": 992632
+  },
+  {
+    "customer_id": "CUS002",
+    "name": "Aditya Verma",
+    "age": 29,
+    "city": "Mumbai",
+    "customer_since": "2018-12-23",
+    "previous_claim_count": 1,
+    "annual_income": 449123
+  },
+  {
+    "customer_id": "CUS003",
+    "name": "Rohan Rao",
+    "age": 36,
+    "city": "Bengaluru",
+    "customer_since": "2023-09-01",
+    "previous_claim_count": 1,
+    "annual_income": 1579796
+  },
+  {
+    "customer_id": "CUS004",
+    "name": "Siddharth Nair",
+    "age": 37,
+    "city": "Pune",
+    "customer_since": "2024-08-10",
+    "previous_claim_count": 1,
+    "annual_income": 3391334
+  },
+  {
+    "customer_id": "CUS005",
+    "name": "Vijay Patel",
+    "age": 33,
+    "city": "Pune",
+    "customer_since": "2021-10-25",
+    "previous_claim_count": 2,
+    "annual_income": 1405889
+  },
+  {
+    "customer_id": "CUS006",
+    "name": "Ananya Reddy",
+    "age": 29,
+    "city": "Hyderabad",
+    "customer_since": "2022-04-06",
+    "previous_claim_count": 1,
+    "annual_income": 3066105
+  },
+  {
+    "customer_id": "CUS007",
+    "name": "Priyanka Joshi",
+    "age": 39,
+    "city": "Hyderabad",
+    "customer_since": "2023-02-25",
+    "previous_claim_count": 1,
+    "annual_income": 2593844
+  },
+  {
+    "customer_id": "CUS008",
+    "name": "Deepika Sen",
+    "age": 28,
+    "city": "Mumbai",
+    "customer_since": "2021-04-15",
+    "previous_claim_count": 1,
+    "annual_income": 1458403
+  },
+  {
+    "customer_id": "CUS009",
+    "name": "Neha Gupta",
+    "age": 59,
+    "city": "Bengaluru",
+    "customer_since": "2025-11-25",
+    "previous_claim_count": 2,
+    "annual_income": 1306890
+  },
+  {
+    "customer_id": "CUS010",
+    "name": "Rahul Kumar",
+    "age": 28,
+    "city": "Bengaluru",
+    "customer_since": "2019-02-18",
+    "previous_claim_count": 5,
+    "annual_income": 420000
+  },
+  {
+    "customer_id": "CUS011",
+    "name": "Sanjay Singh",
+    "age": 47,
+    "city": "Chennai",
+    "customer_since": "2023-02-01",
+    "previous_claim_count": 1,
+    "annual_income": 1476325
+  },
+  {
+    "customer_id": "CUS012",
+    "name": "Vikram Mehta",
+    "age": 45,
+    "city": "Bengaluru",
+    "customer_since": "2025-07-08",
+    "previous_claim_count": 1,
+    "annual_income": 3159028
+  },
+  {
+    "customer_id": "CUS013",
+    "name": "Karan Iyer",
+    "age": 27,
+    "city": "Mumbai",
+    "customer_since": "2025-02-13",
+    "previous_claim_count": 1,
+    "annual_income": 1042679
+  },
+  {
+    "customer_id": "CUS014",
+    "name": "Sunita Das",
+    "age": 52,
+    "city": "Pune",
+    "customer_since": "2021-01-10",
+    "previous_claim_count": 0,
+    "annual_income": 1160566
+  },
+  {
+    "customer_id": "CUS015",
+    "name": "Amit Choudhury",
+    "age": 43,
+    "city": "Hyderabad",
+    "customer_since": "2020-07-27",
+    "previous_claim_count": 1,
+    "annual_income": 2641303
+  },
+  {
+    "customer_id": "CUS016",
+    "name": "Kiran Bose",
+    "age": 40,
+    "city": "Hyderabad",
+    "customer_since": "2020-05-14",
+    "previous_claim_count": 1,
+    "annual_income": 1359927
+  },
+  {
+    "customer_id": "CUS017",
+    "name": "Meera Pillai",
+    "age": 36,
+    "city": "Pune",
+    "customer_since": "2022-06-09",
+    "previous_claim_count": 1,
+    "annual_income": 999623
+  },
+  {
+    "customer_id": "CUS018",
+    "name": "Ravi Nair",
+    "age": 39,
+    "city": "Bengaluru",
+    "customer_since": "2020-10-07",
+    "previous_claim_count": 0,
+    "annual_income": 1598490
+  },
+  {
+    "customer_id": "CUS019",
+    "name": "Divya Kulkarni",
+    "age": 60,
+    "city": "Pune",
+    "customer_since": "2022-01-22",
+    "previous_claim_count": 1,
+    "annual_income": 2868554
+  },
+  {
+    "customer_id": "CUS020",
+    "name": "Suresh Deshmukh",
+    "age": 54,
+    "city": "Hyderabad",
+    "customer_since": "2018-07-12",
+    "previous_claim_count": 4,
+    "annual_income": 2120531
+  },
+  {
+    "customer_id": "CUS021",
+    "name": "Ramesh Mishra",
+    "age": 63,
+    "city": "Bengaluru",
+    "customer_since": "2025-08-19",
+    "previous_claim_count": 0,
+    "annual_income": 600078
+  },
+  {
+    "customer_id": "CUS022",
+    "name": "Pooja Pandey",
+    "age": 61,
+    "city": "Pune",
+    "customer_since": "2023-12-08",
+    "previous_claim_count": 0,
+    "annual_income": 724077
+  },
+  {
+    "customer_id": "CUS023",
+    "name": "Rajesh Naidu",
+    "age": 30,
+    "city": "Mumbai",
+    "customer_since": "2020-12-28",
+    "previous_claim_count": 1,
+    "annual_income": 1315514
+  },
+  {
+    "customer_id": "CUS024",
+    "name": "Aishwarya Shetty",
+    "age": 50,
+    "city": "Bengaluru",
+    "customer_since": "2023-02-02",
+    "previous_claim_count": 0,
+    "annual_income": 1252366
+  },
+  {
+    "customer_id": "CUS025",
+    "name": "Kartik Desai",
+    "age": 55,
+    "city": "Bengaluru",
+    "customer_since": "2023-09-11",
+    "previous_claim_count": 0,
+    "annual_income": 2425884
+  }
+]
