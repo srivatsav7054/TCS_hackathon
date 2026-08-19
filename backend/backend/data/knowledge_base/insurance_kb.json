@@ -1,0 +1,53 @@
+{
+  "document_checklists": {
+    "MOTOR": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "HEALTH": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "PROPERTY": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "LIFE": [
+      "claim_form",
+      "policy",
+      "death_certificate",
+      "medical_history"
+    ]
+  },
+  "exclusion_definitions": {
+    "intentional_damage": "Damage caused deliberately by or at the direction of the insured. No coverage is provided for claims arising from intentional acts, self-destruction, or vandalism orchestrated by the policyholder.",
+    "pre_existing_condition": "A health condition, illness, or injury that was diagnosed, treated, or for which medical advice was sought prior to the policy inception date.",
+    "drunk_driving": "Operating a vehicle while under the influence of alcohol or intoxicants above the legal limit. Any motor claims arising from incidents where the operator is intoxicated are excluded.",
+    "war_nuclear": "Loss or damage caused directly or indirectly by war, invasion, acts of foreign enemies, hostilities, civil war, rebellion, or nuclear radiation/contamination."
+  },
+  "fraud_red_flags": [
+    "Repeat claims in a short window: A policyholder filing multiple claims of similar nature within a 6-month period.",
+    "Claim filed shortly after policy inception: A major claim filed within the first 15-30 days of the policy active date.",
+    "Narrative inconsistent with documents: Contradictions between the claim description (narrative) and official documentation (e.g., incident dates, hospital bill details, police records).",
+    "Claim amount disproportionate to claim history: A sudden massive claim by a policyholder with a history of small, low-value claims.",
+    "Claim amount disproportionate to declared income: High-value claims filed by policyholders with low annual income, where the asset value or hospital expenses seem unrealistic.",
+    "Repeated boilerplate language across unrelated claims: Narrative text or details matching other unrelated claims word-for-word, indicating a templated fraud pattern."
+  ],
+  "sla_standards": {
+    "demo_sla_statement": "All incoming claims must be actioned within 48 to 72 hours of submission. Note that this is an internal demo standard designed for system evaluation and is not sourced from or verified by any actual insurance regulator."
+  },
+  "settlement_guidance": {
+    "principles": [
+      "The policy deductible is subtracted from the approved claim amount before final settlement.",
+      "Depreciation calculations apply to physical assets (like vehicles and property fittings) based on their age and condition, reducing the net settlement payout.",
+      "Historical claim comparables from the vector store inform the expected price range for repairs, but the actual deduction logic is strictly governed by the policy schedule."
+    ]
+  }
+}

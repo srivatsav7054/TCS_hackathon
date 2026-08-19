@@ -1,0 +1,205 @@
+[
+  {
+    "claim_id": "ICLM001",
+    "customer_id": "CUS002",
+    "policy_id": "POL002",
+    "claim_type": "MOTOR",
+    "claim_amount": 45000,
+    "incident_date": "2026-08-10",
+    "narrative": "My car was parked at a grocery store and another vehicle swiped the front bumper while backing out. I have all necessary documents.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "sla_hours": 48,
+    "hours_remaining": 40
+  },
+  {
+    "claim_id": "ICLM002",
+    "customer_id": "CUS004",
+    "policy_id": "POL004",
+    "claim_type": "MOTOR",
+    "claim_amount": 65000,
+    "incident_date": "2026-08-11",
+    "narrative": "Minor bumper collision at traffic signal. Another vehicle bumped into me from behind. Submitting my claim form and policy copy. Other documents will follow.",
+    "submitted_documents": [
+      "claim_form",
+      "policy"
+    ],
+    "sla_hours": 48,
+    "hours_remaining": 35
+  },
+  {
+    "claim_id": "ICLM003",
+    "customer_id": "CUS011",
+    "policy_id": "POL011",
+    "claim_type": "MOTOR",
+    "claim_amount": 50000,
+    "incident_date": "2026-08-05",
+    "narrative": "Collision with a gate post while parking. Scratched the passenger side doors and dented the fender. Urgent review needed.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate"
+    ],
+    "sla_hours": 48,
+    "hours_remaining": 3
+  },
+  {
+    "claim_id": "ICLM004",
+    "customer_id": "CUS012",
+    "policy_id": "POL012",
+    "claim_type": "MOTOR",
+    "claim_amount": 920000,
+    "incident_date": "2026-08-08",
+    "narrative": "High-speed collision on highway. The car rolled over and is completely totaled. Repair estimates indicate near total loss, matching the coverage limit.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "sla_hours": 48,
+    "hours_remaining": 28
+  },
+  {
+    "claim_id": "ICLM005",
+    "customer_id": "CUS005",
+    "policy_id": "POL005",
+    "claim_type": "HEALTH",
+    "claim_amount": 150000,
+    "incident_date": "2026-08-14",
+    "narrative": "Emergency hospitalization due to acute myocardial infarction. Patient admitted to ICU immediately. Angioplasty performed. Time-sensitive claim.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "sla_hours": 48,
+    "hours_remaining": 8
+  },
+  {
+    "claim_id": "ICLM006",
+    "customer_id": "CUS006",
+    "policy_id": "POL006",
+    "claim_type": "HEALTH",
+    "claim_amount": 80000,
+    "incident_date": "2026-08-12",
+    "narrative": "Hospitalized for acute gastroenteritis. Underwent IV fluid therapy and lab tests. Discharged after recovery.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "sla_hours": 48,
+    "hours_remaining": 24
+  },
+  {
+    "claim_id": "ICLM007",
+    "customer_id": "CUS007",
+    "policy_id": "POL007",
+    "claim_type": "HEALTH",
+    "claim_amount": 30000,
+    "incident_date": "2026-08-13",
+    "narrative": "Outpatient treatment for severe respiratory tract infection. Doctor prescribed antibiotics and inhalers.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "hospital_bill"
+    ],
+    "sla_hours": 48,
+    "hours_remaining": 18
+  },
+  {
+    "claim_id": "ICLM008",
+    "customer_id": "CUS018",
+    "policy_id": "POL018",
+    "claim_type": "PROPERTY",
+    "claim_amount": 120000,
+    "incident_date": "2026-08-09",
+    "narrative": "Damage to the external wall of my house. I got angry during an argument and deliberately kicked and smashed the glass patio door.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "sla_hours": 72,
+    "hours_remaining": 48
+  },
+  {
+    "claim_id": "ICLM009",
+    "customer_id": "CUS010",
+    "policy_id": "POL010",
+    "claim_type": "PROPERTY",
+    "claim_amount": 800000,
+    "incident_date": "2026-08-14",
+    "narrative": "I was away on vacation when a fire broke out in the living room. However, my neighbor says they saw me inside the house just before the smoke started.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "sla_hours": 72,
+    "hours_remaining": 60
+  },
+  {
+    "claim_id": "ICLM010",
+    "customer_id": "CUS003",
+    "policy_id": "POL003",
+    "claim_type": "PROPERTY",
+    "claim_amount": 550000,
+    "incident_date": "2026-08-11",
+    "narrative": "Flooding in basement due to municipal water main burst. Extensive damage to drywall, carpeting, and stored goods. Submitting assessor report, contractor quotes, and municipal notice.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate",
+      "municipal_notice"
+    ],
+    "sla_hours": 72,
+    "hours_remaining": 50
+  },
+  {
+    "claim_id": "ICLM011",
+    "customer_id": "CUS001",
+    "policy_id": "POL001",
+    "claim_type": "LIFE",
+    "claim_amount": 5000000,
+    "incident_date": "2026-08-01",
+    "narrative": "Claim for term life benefits following the natural demise of my father, who passed away at home due to age-related complications.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "death_certificate",
+      "medical_history"
+    ],
+    "sla_hours": 72,
+    "hours_remaining": 65
+  },
+  {
+    "claim_id": "ICLM012",
+    "customer_id": "CUS009",
+    "policy_id": "POL009",
+    "claim_type": "LIFE",
+    "claim_amount": 7500000,
+    "incident_date": "2026-08-02",
+    "narrative": "Claim for life cover. Insured passed away in hospital. Requesting fast track review.",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "death_certificate"
+    ],
+    "sla_hours": 72,
+    "hours_remaining": 2
+  }
+]

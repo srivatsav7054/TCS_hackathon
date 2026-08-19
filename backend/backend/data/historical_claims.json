@@ -1,0 +1,62 @@
+[
+  {
+    "claim_id": "HC001",
+    "text": "Auto collision rear-end accident at traffic signal. Insured vehicle struck by at-fault driver at estimated 25 mph. Minor whiplash injuries treated at ER. Vehicle damage includes rear bumper replacement and trunk lid repair. Three repair estimates obtained ranging from $11,200 to $13,800. Submitted documents: Claim Form, Police Report, Medical Records, Repair Estimates, Photos of Damage. Missing: Witness Statements."
+  },
+  {
+    "claim_id": "HC002",
+    "text": "Emergency appendectomy surgery. Patient presented to ER with acute abdominal pain diagnosed as acute appendicitis with risk of perforation. Emergency laparoscopic surgery performed. Patient hospitalized for 3 days post-op with IV antibiotics. Total billing includes ER visit, surgical fee, anesthesia, hospital stay, pathology, medications. Pre-authorization not obtained due to emergency nature."
+  },
+  {
+    "claim_id": "HC003",
+    "text": "Residential property fire damage. Fire originated in kitchen from unattended stove and spread to living room and second-floor bedrooms. Approximately 60% of structure sustained significant damage. Property deemed uninhabitable. Family of four displaced. Contents loss estimated at $45,000 in addition to structural damage. Fire marshal report confirms accidental origin."
+  },
+  {
+    "claim_id": "HC004",
+    "text": "Life insurance claim following policyholder death due to cardiac arrest. Beneficiary submitting claim for policy payout. Death certificate, medical records, and attending physician statement provided. No pre-existing conditions on record. Policy in force for 8 years with no lapses."
+  },
+  {
+    "claim_id": "HC005",
+    "text": "Suspected insurance fraud - inflated vehicle repair claim. Claimant history shows 4 prior claims in 18 months. Repair estimate significantly exceeds industry benchmark for stated damage. Discrepancies found between police report narrative and claimant statement. Offshore bank account requested for settlement payment."
+  },
+  {
+    "claim_id": "HC006",
+    "text": "Health claim for knee replacement surgery following osteoarthritis diagnosis. Pre-authorization obtained 30 days prior to surgery. Hospital stay of 4 days. Physical therapy sessions claimed for 6-week post-operative recovery. All required documents submitted including surgical notes, discharge summary, PT receipts."
+  },
+  {
+    "claim_id": "HC007",
+    "text": "Motor vehicle total loss claim following flooding. Vehicle submerged in flash flood event. Engine hydrolocked, electrical systems destroyed. Salvage title issued. Current market value of vehicle assessed at $18,500. Settlement offer based on ACV minus deductible."
+  },
+  {
+    "claim_id": "HC008",
+    "text": "Commercial property burglary claim. Retail store broken into overnight. Cash from register, electronics, and inventory stolen. Surveillance footage submitted showing forced entry. Police report filed. Business interruption loss claimed for 3 days while security system reinstalled."
+  },
+  {
+    "claim_id": "HC009",
+    "text": "Senior citizen slip and fall liability claim. Claimant fell on icy walkway outside insured property. Fractured hip requiring surgical repair and 6-week rehabilitation. Medical expenses totaling $95,000. Liability questioned due to posted warning signs and claimant's pre-existing mobility issues."
+  },
+  {
+    "claim_id": "HC010",
+    "text": "Multi-vehicle accident on highway. Insured vehicle rear-ended another at highway speeds due to brake failure. Three vehicles involved. Two parties sustained injuries requiring hospitalization. Third-party liability exposure significant. Mechanical inspection report confirms brake system failure. Subrogation potential against vehicle manufacturer."
+  },
+  {
+    "claim_id": "HC011",
+    "text": "Health insurance claim for cancer treatment. Stage II breast cancer diagnosis. Chemotherapy, radiation, and surgical intervention required. Pre-authorization obtained for all procedures. Treatment ongoing over 6-month period. High complexity due to multiple treatment modalities and extended care timeline."
+  },
+  {
+    "claim_id": "HC012",
+    "text": "Property water damage from burst pipe. Pipe burst during winter freeze. Damage to flooring, drywall, and personal property on ground floor. Restoration company engaged within 24 hours. Mold remediation required after delayed discovery. Claimant had previous water damage claim 2 years prior."
+  },
+  {
+    "claim_id": "HC013",
+    "text": "Disability insurance claim following workplace accident. Worker injured by falling machinery on manufacturing floor. Fractured vertebrae resulting in temporary total disability. Worker's compensation coordinating with disability policy. Expected recovery period 6-9 months with physical therapy."
+  },
+  {
+    "claim_id": "HC014",
+    "text": "Homeowner claim for roof damage following severe hailstorm. Hailstones up to 2 inches diameter recorded by weather service. Roof covering, gutters, and skylights damaged. Neighbor claims also filed for same storm event. Adjuster inspection confirms storm causation."
+  },
+  {
+    "claim_id": "HC015",
+    "text": "Travel insurance claim for medical evacuation abroad. Policyholder suffered stroke while traveling in remote area. Emergency helicopter evacuation to nearest hospital 200 miles away. Medical stabilization followed by commercial air transport home. Total medical and transport costs $180,000."
+  }
+]

@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+PyMuPDF
+groq
+pydantic>=2
+sentence-transformers
+scikit-learn
+numpy
+python-dotenv
+reportlab
+python-multipart

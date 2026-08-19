@@ -1,0 +1,582 @@
+[
+  {
+    "claim_id": "HCLM001",
+    "customer_id": "CUS010",
+    "policy_id": "POL010",
+    "claim_type": "PROPERTY",
+    "incident_type": "Wind/Storm Damage",
+    "claim_amount": 99131,
+    "narrative": "A water pipe burst in the wall of the first-floor bathroom at Anna Nagar, leading to extensive water damage to the ceiling and flooring below.",
+    "incident_date": "2023-09-13",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "settlement_amount": 86883,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM002",
+    "customer_id": "CUS010",
+    "policy_id": "POL010",
+    "claim_type": "PROPERTY",
+    "incident_type": "Water Damage",
+    "claim_amount": 147548,
+    "narrative": "Heavy storm winds damaged the roof shingles at Indiranagar, causing rainwater to leak into the attic and ruin insulation and drywall.",
+    "incident_date": "2023-07-20",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "settlement_amount": 139024,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM003",
+    "customer_id": "CUS010",
+    "policy_id": "POL010",
+    "claim_type": "PROPERTY",
+    "incident_type": "Wind/Storm Damage",
+    "claim_amount": 90674,
+    "narrative": "A fire broke out in the kitchen of the property at Bandra West due to an electrical short circuit. Kitchen cabinets and appliances destroyed by fire and smoke.",
+    "incident_date": "2023-08-25",
+    "submitted_documents": [
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "settlement_amount": 0,
+    "final_outcome": "PENDING",
+    "handler_notes": "Waiting for policyholder to submit missing documents. Follow-up email sent."
+  },
+  {
+    "claim_id": "HCLM004",
+    "customer_id": "CUS010",
+    "policy_id": "POL010",
+    "claim_type": "PROPERTY",
+    "incident_type": "Wind/Storm Damage",
+    "claim_amount": 70916,
+    "narrative": "The property at Koregaon Park was burglarized over the weekend. Intruders forced open a window and stole electronic equipment and personal items.",
+    "incident_date": "2025-04-13",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "settlement_amount": 0,
+    "final_outcome": "UNDER_INVESTIGATION",
+    "handler_notes": "Red flags detected: inconsistency in damage narrative vs. photos. Case referred to SIU (Special Investigation Unit)."
+  },
+  {
+    "claim_id": "HCLM005",
+    "customer_id": "CUS010",
+    "policy_id": "POL010",
+    "claim_type": "PROPERTY",
+    "incident_type": "Burglary",
+    "claim_amount": 245738,
+    "narrative": "A severe thunderstorm knocked down a large tree branch, which crashed onto the garage roof of Jubilee Hills, causing structural damage.",
+    "incident_date": "2025-11-09",
+    "submitted_documents": [
+      "repair_estimate",
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "witness_statement",
+      "police_report"
+    ],
+    "settlement_amount": 0,
+    "final_outcome": "SENIOR_REVIEW",
+    "handler_notes": "Case involves multiple parties and complex liability questions. Escalated to Senior Review Board."
+  },
+  {
+    "claim_id": "HCLM006",
+    "customer_id": "CUS020",
+    "policy_id": "POL020",
+    "claim_type": "MOTOR",
+    "incident_type": "Vandalism",
+    "claim_amount": 68520,
+    "narrative": "Vehicle was parked in a designated space at Anna Nagar when it was rear-ended by an out-of-control sedan. Bumper and taillights destroyed.",
+    "incident_date": "2024-07-17",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 60676,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM007",
+    "customer_id": "CUS020",
+    "policy_id": "POL020",
+    "claim_type": "MOTOR",
+    "incident_type": "Collision",
+    "claim_amount": 99840,
+    "narrative": "While driving through Bandra West in heavy rain, the car skidded on wet asphalt and collided with a concrete barrier, damaging the front radiator.",
+    "incident_date": "2025-10-04",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 91203,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM008",
+    "customer_id": "CUS020",
+    "policy_id": "POL020",
+    "claim_type": "MOTOR",
+    "incident_type": "Vandalism",
+    "claim_amount": 171178,
+    "narrative": "The insured vehicle was traveling at moderate speed on Koregaon Park when another driver failed to yield at a roundabout, causing a side-impact collision.",
+    "incident_date": "2024-12-29",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 151996,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Emergency claim fast-tracked. Settlement approved and disbursed immediately due to critical medical condition."
+  },
+  {
+    "claim_id": "HCLM009",
+    "customer_id": "CUS020",
+    "policy_id": "POL020",
+    "claim_type": "MOTOR",
+    "incident_type": "Single Vehicle Crash",
+    "claim_amount": 741897,
+    "narrative": "Vandalism occurred overnight while the car was parked near Koregaon Park. The driver-side window was shattered and the dashboard scratched.",
+    "incident_date": "2025-08-03",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 687613,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Large claim reviewed by senior adjuster. All proof of loss documents verified. Settled close to claim amount."
+  },
+  {
+    "claim_id": "HCLM010",
+    "customer_id": "CUS001",
+    "policy_id": "POL001",
+    "claim_type": "LIFE",
+    "incident_type": "Natural Death",
+    "claim_amount": 261037,
+    "narrative": "The insured suffered fatal injuries during an accidental fall from a height while visiting a commercial facility in Koregaon Park.",
+    "incident_date": "2022-08-15",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "death_certificate",
+      "medical_history"
+    ],
+    "settlement_amount": 135830,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Narrative contains discrepancies. Settlement reduced following dispute resolution and adjuster review."
+  },
+  {
+    "claim_id": "HCLM011",
+    "customer_id": "CUS002",
+    "policy_id": "POL002",
+    "claim_type": "MOTOR",
+    "incident_type": "Single Vehicle Crash",
+    "claim_amount": 411477,
+    "narrative": "Vehicle was parked in a designated space at Koregaon Park when it was rear-ended by an out-of-control sedan. Bumper and taillights destroyed.",
+    "incident_date": "2022-05-16",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 376725,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Large claim reviewed by senior adjuster. All proof of loss documents verified. Settled close to claim amount."
+  },
+  {
+    "claim_id": "HCLM012",
+    "customer_id": "CUS003",
+    "policy_id": "POL003",
+    "claim_type": "PROPERTY",
+    "incident_type": "Fire/Smoke Damage",
+    "claim_amount": 54718,
+    "narrative": "Heavy storm winds damaged the roof shingles at Indiranagar, causing rainwater to leak into the attic and ruin insulation and drywall.",
+    "incident_date": "2024-03-21",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "settlement_amount": 47274,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM013",
+    "customer_id": "CUS004",
+    "policy_id": "POL004",
+    "claim_type": "MOTOR",
+    "incident_type": "Fender Bender",
+    "claim_amount": 91484,
+    "narrative": "The insured vehicle was traveling at moderate speed on Bandra West when another driver failed to yield at a roundabout, causing a side-impact collision.",
+    "incident_date": "2023-01-17",
+    "submitted_documents": [
+      "claim_form",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 0,
+    "final_outcome": "PENDING",
+    "handler_notes": "Waiting for policyholder to submit missing documents. Follow-up email sent."
+  },
+  {
+    "claim_id": "HCLM014",
+    "customer_id": "CUS005",
+    "policy_id": "POL005",
+    "claim_type": "HEALTH",
+    "incident_type": "Emergency Surgery",
+    "claim_amount": 696247,
+    "narrative": "The patient underwent treatment for a severe respiratory infection at Indiranagar, requiring three days of IV antibiotics and monitoring.",
+    "incident_date": "2025-04-03",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "settlement_amount": 595090,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Large claim reviewed by senior adjuster. All proof of loss documents verified. Settled close to claim amount."
+  },
+  {
+    "claim_id": "HCLM015",
+    "customer_id": "CUS006",
+    "policy_id": "POL006",
+    "claim_type": "HEALTH",
+    "incident_type": "Inpatient Illness Treatment",
+    "claim_amount": 91938,
+    "narrative": "Scheduled hospitalization at Whitefield for a laparoscopic cholecystectomy due to symptomatic gallstones. Discharged in stable condition.",
+    "incident_date": "2022-08-13",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "settlement_amount": 53224,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Narrative contains discrepancies. Settlement reduced following dispute resolution and adjuster review."
+  },
+  {
+    "claim_id": "HCLM016",
+    "customer_id": "CUS008",
+    "policy_id": "POL008",
+    "claim_type": "PROPERTY",
+    "incident_type": "Burglary",
+    "claim_amount": 89352,
+    "narrative": "A water pipe burst in the wall of the first-floor bathroom at Gachibowli, leading to extensive water damage to the ceiling and flooring below.",
+    "incident_date": "2023-01-30",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ],
+    "settlement_amount": 78195,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM017",
+    "customer_id": "CUS009",
+    "policy_id": "POL009",
+    "claim_type": "LIFE",
+    "incident_type": "Illness Demise",
+    "claim_amount": 477865,
+    "narrative": "We regret to report the demise of the insured following a major multi-vehicle accident on MG Road highway. Death was instantaneous.",
+    "incident_date": "2025-02-07",
+    "submitted_documents": [
+      "claim_form",
+      "medical_history",
+      "policy",
+      "witness_statement",
+      "death_certificate",
+      "police_report"
+    ],
+    "settlement_amount": 0,
+    "final_outcome": "SENIOR_REVIEW",
+    "handler_notes": "Case involves multiple parties and complex liability questions. Escalated to Senior Review Board."
+  },
+  {
+    "claim_id": "HCLM018",
+    "customer_id": "CUS007",
+    "policy_id": "POL007",
+    "claim_type": "HEALTH",
+    "incident_type": "Inpatient Illness Treatment",
+    "claim_amount": 64587,
+    "narrative": "Admitted to Bandra West after a fall at home resulting in a compound fracture of the left wrist. Surgery involved plate insertion.",
+    "incident_date": "2022-08-23",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "settlement_amount": 55619,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM019",
+    "customer_id": "CUS013",
+    "policy_id": "POL013",
+    "claim_type": "HEALTH",
+    "incident_type": "Critical Care Admission",
+    "claim_amount": 50850,
+    "narrative": "The patient underwent treatment for a severe respiratory infection at Whitefield, requiring three days of IV antibiotics and monitoring.",
+    "incident_date": "2024-06-09",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "settlement_amount": 48072,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Emergency claim fast-tracked. Settlement approved and disbursed immediately due to critical medical condition."
+  },
+  {
+    "claim_id": "HCLM020",
+    "customer_id": "CUS001",
+    "policy_id": "POL001",
+    "claim_type": "LIFE",
+    "incident_type": "Illness Demise",
+    "claim_amount": 139619,
+    "narrative": "The insured suffered fatal injuries during an accidental fall from a height while visiting a commercial facility in Whitefield.",
+    "incident_date": "2023-10-14",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "death_certificate",
+      "medical_history"
+    ],
+    "settlement_amount": 120161,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM021",
+    "customer_id": "CUS015",
+    "policy_id": "POL015",
+    "claim_type": "HEALTH",
+    "incident_type": "Emergency Surgery",
+    "claim_amount": 69009,
+    "narrative": "The patient experienced severe abdominal pain and was admitted to Koregaon Park where an emergency appendectomy was performed successfully.",
+    "incident_date": "2023-09-04",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "settlement_amount": 63919,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM022",
+    "customer_id": "CUS011",
+    "policy_id": "POL011",
+    "claim_type": "MOTOR",
+    "incident_type": "Single Vehicle Crash",
+    "claim_amount": 79042,
+    "narrative": "While driving through MG Road in heavy rain, the car skidded on wet asphalt and collided with a concrete barrier, damaging the front radiator.",
+    "incident_date": "2024-11-25",
+    "submitted_documents": [
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 0,
+    "final_outcome": "DELAYED",
+    "handler_notes": "Waiting for policyholder to submit missing documents. Follow-up email sent."
+  },
+  {
+    "claim_id": "HCLM023",
+    "customer_id": "CUS017",
+    "policy_id": "POL017",
+    "claim_type": "HEALTH",
+    "incident_type": "Emergency Surgery",
+    "claim_amount": 51571,
+    "narrative": "Admitted to Koregaon Park after a fall at home resulting in a compound fracture of the left wrist. Surgery involved plate insertion.",
+    "incident_date": "2023-09-22",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "settlement_amount": 48363,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM024",
+    "customer_id": "CUS012",
+    "policy_id": "POL012",
+    "claim_type": "MOTOR",
+    "incident_type": "Fender Bender",
+    "claim_amount": 727831,
+    "narrative": "Vandalism occurred overnight while the car was parked near Jubilee Hills. The driver-side window was shattered and the dashboard scratched.",
+    "incident_date": "2022-06-11",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 623693,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Large claim reviewed by senior adjuster. All proof of loss documents verified. Settled close to claim amount."
+  },
+  {
+    "claim_id": "HCLM025",
+    "customer_id": "CUS009",
+    "policy_id": "POL009",
+    "claim_type": "LIFE",
+    "incident_type": "Natural Death",
+    "claim_amount": 222949,
+    "narrative": "The insured suffered fatal injuries during an accidental fall from a height while visiting a commercial facility in Whitefield.",
+    "incident_date": "2024-12-26",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "death_certificate",
+      "medical_history"
+    ],
+    "settlement_amount": 152509,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Narrative contains discrepancies. Settlement reduced following dispute resolution and adjuster review."
+  },
+  {
+    "claim_id": "HCLM026",
+    "customer_id": "CUS023",
+    "policy_id": "POL023",
+    "claim_type": "HEALTH",
+    "incident_type": "Inpatient Illness Treatment",
+    "claim_amount": 134351,
+    "narrative": "The patient experienced severe abdominal pain and was admitted to Bandra West where an emergency appendectomy was performed successfully.",
+    "incident_date": "2022-12-05",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ],
+    "settlement_amount": 122347,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM027",
+    "customer_id": "CUS005",
+    "policy_id": "POL005",
+    "claim_type": "HEALTH",
+    "incident_type": "Inpatient Illness Treatment",
+    "claim_amount": 55857,
+    "narrative": "Patient was admitted to Koregaon Park for chronic chest tightness. Diagnostic tests revealed coronary artery blockage, requiring angioplasty.",
+    "incident_date": "2023-08-02",
+    "submitted_documents": [
+      "claim_form",
+      "hospital_bill"
+    ],
+    "settlement_amount": 0,
+    "final_outcome": "DELAYED",
+    "handler_notes": "Waiting for policyholder to submit missing documents. Follow-up email sent."
+  },
+  {
+    "claim_id": "HCLM028",
+    "customer_id": "CUS016",
+    "policy_id": "POL016",
+    "claim_type": "MOTOR",
+    "incident_type": "Vandalism",
+    "claim_amount": 66784,
+    "narrative": "The insured vehicle was traveling at moderate speed on Koregaon Park when another driver failed to yield at a roundabout, causing a side-impact collision.",
+    "incident_date": "2022-09-05",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 59024,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Emergency claim fast-tracked. Settlement approved and disbursed immediately due to critical medical condition."
+  },
+  {
+    "claim_id": "HCLM029",
+    "customer_id": "CUS019",
+    "policy_id": "POL019",
+    "claim_type": "MOTOR",
+    "incident_type": "Vandalism",
+    "claim_amount": 20942,
+    "narrative": "Vandalism occurred overnight while the car was parked near Koregaon Park. The driver-side window was shattered and the dashboard scratched.",
+    "incident_date": "2023-08-26",
+    "submitted_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ],
+    "settlement_amount": 17949,
+    "final_outcome": "SETTLED",
+    "handler_notes": "Claim processed under standard parameters. Evidence complete, deductible applied."
+  },
+  {
+    "claim_id": "HCLM030",
+    "customer_id": "CUS001",
+    "policy_id": "POL001",
+    "claim_type": "LIFE",
+    "incident_type": "Natural Death",
+    "claim_amount": 135337,
+    "narrative": "The insured suffered fatal injuries during an accidental fall from a height while visiting a commercial facility in MG Road.",
+    "incident_date": "2025-11-05",
+    "submitted_documents": [
+      "claim_form",
+      "medical_history",
+      "policy",
+      "witness_statement",
+      "death_certificate",
+      "police_report"
+    ],
+    "settlement_amount": 0,
+    "final_outcome": "SENIOR_REVIEW",
+    "handler_notes": "Case involves multiple parties and complex liability questions. Escalated to Senior Review Board."
+  }
+]

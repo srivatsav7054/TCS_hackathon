@@ -1,0 +1,626 @@
+[
+  {
+    "policy_id": "POL001",
+    "customer_id": "CUS001",
+    "policy_type": "LIFE",
+    "coverage": [
+      "Term Life Cover",
+      "Accidental Death Benefit"
+    ],
+    "coverage_limit": 5000000,
+    "deductible": 0,
+    "active_from": "2022-04-23",
+    "active_until": "2030-04-21",
+    "exclusions": [
+      "suicide_clause"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "death_certificate",
+      "medical_history"
+    ]
+  },
+  {
+    "policy_id": "POL002",
+    "customer_id": "CUS002",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 400000,
+    "deductible": 5000,
+    "active_from": "2021-10-09",
+    "active_until": "2026-10-08",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL003",
+    "customer_id": "CUS003",
+    "policy_type": "PROPERTY",
+    "coverage": [
+      "Fire and Allied Perils",
+      "Burglary",
+      "Earthquake"
+    ],
+    "coverage_limit": 2500000,
+    "deductible": 20000,
+    "active_from": "2021-06-09",
+    "active_until": "2027-06-08",
+    "exclusions": [
+      "wear_and_tear",
+      "war_nuclear"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ]
+  },
+  {
+    "policy_id": "POL004",
+    "customer_id": "CUS004",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 500000,
+    "deductible": 2000,
+    "active_from": "2018-02-13",
+    "active_until": "2023-02-12",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL005",
+    "customer_id": "CUS005",
+    "policy_type": "HEALTH",
+    "coverage": [
+      "Inpatient Care",
+      "Pre/Post Hospitalization",
+      "Ambulance Cover"
+    ],
+    "coverage_limit": 300000,
+    "deductible": 15000,
+    "active_from": "2022-05-26",
+    "active_until": "2025-12-31",
+    "exclusions": [
+      "cosmetic_surgery",
+      "self_inflicted_injury",
+      "pre_existing_condition"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ]
+  },
+  {
+    "policy_id": "POL006",
+    "customer_id": "CUS006",
+    "policy_type": "HEALTH",
+    "coverage": [
+      "Inpatient Care",
+      "Pre/Post Hospitalization",
+      "Ambulance Cover"
+    ],
+    "coverage_limit": 300000,
+    "deductible": 15000,
+    "active_from": "2021-09-04",
+    "active_until": "2029-09-02",
+    "exclusions": [
+      "cosmetic_surgery",
+      "self_inflicted_injury",
+      "pre_existing_condition"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ]
+  },
+  {
+    "policy_id": "POL007",
+    "customer_id": "CUS007",
+    "policy_type": "HEALTH",
+    "coverage": [
+      "Inpatient Care",
+      "Pre/Post Hospitalization",
+      "Ambulance Cover"
+    ],
+    "coverage_limit": 500000,
+    "deductible": 15000,
+    "active_from": "2020-11-20",
+    "active_until": "2027-11-19",
+    "exclusions": [
+      "cosmetic_surgery",
+      "self_inflicted_injury",
+      "pre_existing_condition"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ]
+  },
+  {
+    "policy_id": "POL008",
+    "customer_id": "CUS008",
+    "policy_type": "PROPERTY",
+    "coverage": [
+      "Fire and Allied Perils",
+      "Burglary",
+      "Earthquake"
+    ],
+    "coverage_limit": 3500000,
+    "deductible": 10000,
+    "active_from": "2018-01-22",
+    "active_until": "2024-01-21",
+    "exclusions": [
+      "wear_and_tear",
+      "war_nuclear"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ]
+  },
+  {
+    "policy_id": "POL009",
+    "customer_id": "CUS009",
+    "policy_type": "LIFE",
+    "coverage": [
+      "Term Life Cover",
+      "Accidental Death Benefit"
+    ],
+    "coverage_limit": 10000000,
+    "deductible": 0,
+    "active_from": "2019-02-13",
+    "active_until": "2026-02-11",
+    "exclusions": [
+      "suicide_clause"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "death_certificate",
+      "medical_history"
+    ]
+  },
+  {
+    "policy_id": "POL010",
+    "customer_id": "CUS010",
+    "policy_type": "PROPERTY",
+    "coverage": [
+      "Fire and Allied Perils",
+      "Burglary",
+      "Earthquake"
+    ],
+    "coverage_limit": 3500000,
+    "deductible": 10000,
+    "active_from": "2023-06-06",
+    "active_until": "2030-06-04",
+    "exclusions": [
+      "wear_and_tear",
+      "war_nuclear"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ]
+  },
+  {
+    "policy_id": "POL011",
+    "customer_id": "CUS011",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 800000,
+    "deductible": 5000,
+    "active_from": "2023-05-23",
+    "active_until": "2028-05-21",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL012",
+    "customer_id": "CUS012",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 1000000,
+    "deductible": 1000,
+    "active_from": "2019-09-24",
+    "active_until": "2025-09-22",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL013",
+    "customer_id": "CUS013",
+    "policy_type": "HEALTH",
+    "coverage": [
+      "Inpatient Care",
+      "Pre/Post Hospitalization",
+      "Ambulance Cover"
+    ],
+    "coverage_limit": 750000,
+    "deductible": 5000,
+    "active_from": "2021-07-09",
+    "active_until": "2027-07-08",
+    "exclusions": [
+      "cosmetic_surgery",
+      "self_inflicted_injury",
+      "pre_existing_condition"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ]
+  },
+  {
+    "policy_id": "POL014",
+    "customer_id": "CUS014",
+    "policy_type": "PROPERTY",
+    "coverage": [
+      "Fire and Allied Perils",
+      "Burglary",
+      "Earthquake"
+    ],
+    "coverage_limit": 5000000,
+    "deductible": 20000,
+    "active_from": "2019-01-26",
+    "active_until": "2026-01-24",
+    "exclusions": [
+      "wear_and_tear",
+      "war_nuclear"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ]
+  },
+  {
+    "policy_id": "POL015",
+    "customer_id": "CUS015",
+    "policy_type": "HEALTH",
+    "coverage": [
+      "Inpatient Care",
+      "Pre/Post Hospitalization",
+      "Ambulance Cover"
+    ],
+    "coverage_limit": 500000,
+    "deductible": 15000,
+    "active_from": "2018-04-19",
+    "active_until": "2025-04-17",
+    "exclusions": [
+      "cosmetic_surgery",
+      "self_inflicted_injury",
+      "pre_existing_condition"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ]
+  },
+  {
+    "policy_id": "POL016",
+    "customer_id": "CUS016",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 400000,
+    "deductible": 2000,
+    "active_from": "2021-07-21",
+    "active_until": "2029-07-19",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL017",
+    "customer_id": "CUS017",
+    "policy_type": "HEALTH",
+    "coverage": [
+      "Inpatient Care",
+      "Pre/Post Hospitalization",
+      "Ambulance Cover"
+    ],
+    "coverage_limit": 1000000,
+    "deductible": 15000,
+    "active_from": "2019-04-24",
+    "active_until": "2026-04-22",
+    "exclusions": [
+      "cosmetic_surgery",
+      "self_inflicted_injury",
+      "pre_existing_condition"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ]
+  },
+  {
+    "policy_id": "POL018",
+    "customer_id": "CUS018",
+    "policy_type": "PROPERTY",
+    "coverage": [
+      "Fire and Allied Perils",
+      "Burglary",
+      "Earthquake"
+    ],
+    "coverage_limit": 5000000,
+    "deductible": 10000,
+    "active_from": "2021-06-08",
+    "active_until": "2027-06-07",
+    "exclusions": [
+      "wear_and_tear",
+      "war_nuclear",
+      "intentional_damage"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ]
+  },
+  {
+    "policy_id": "POL019",
+    "customer_id": "CUS019",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 600000,
+    "deductible": 5000,
+    "active_from": "2018-02-05",
+    "active_until": "2024-02-04",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL020",
+    "customer_id": "CUS020",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 800000,
+    "deductible": 2000,
+    "active_from": "2018-07-13",
+    "active_until": "2026-07-11",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL021",
+    "customer_id": "CUS021",
+    "policy_type": "PROPERTY",
+    "coverage": [
+      "Fire and Allied Perils",
+      "Burglary",
+      "Earthquake"
+    ],
+    "coverage_limit": 3500000,
+    "deductible": 50000,
+    "active_from": "2022-01-22",
+    "active_until": "2027-01-21",
+    "exclusions": [
+      "wear_and_tear",
+      "war_nuclear"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "damage_assessment",
+      "repair_estimate"
+    ]
+  },
+  {
+    "policy_id": "POL022",
+    "customer_id": "CUS022",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 400000,
+    "deductible": 2000,
+    "active_from": "2020-02-10",
+    "active_until": "2028-02-08",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL023",
+    "customer_id": "CUS023",
+    "policy_type": "HEALTH",
+    "coverage": [
+      "Inpatient Care",
+      "Pre/Post Hospitalization",
+      "Ambulance Cover"
+    ],
+    "coverage_limit": 500000,
+    "deductible": 15000,
+    "active_from": "2018-12-24",
+    "active_until": "2025-12-22",
+    "exclusions": [
+      "cosmetic_surgery",
+      "self_inflicted_injury",
+      "pre_existing_condition"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "medical_report",
+      "hospital_bill"
+    ]
+  },
+  {
+    "policy_id": "POL024",
+    "customer_id": "CUS024",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 400000,
+    "deductible": 2000,
+    "active_from": "2018-11-10",
+    "active_until": "2024-11-08",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  },
+  {
+    "policy_id": "POL025",
+    "customer_id": "CUS025",
+    "policy_type": "MOTOR",
+    "coverage": [
+      "Third Party Liability",
+      "Own Damage",
+      "Personal Accident"
+    ],
+    "coverage_limit": 800000,
+    "deductible": 2000,
+    "active_from": "2019-09-25",
+    "active_until": "2024-09-23",
+    "exclusions": [
+      "commercial_use",
+      "racing",
+      "drunk_driving"
+    ],
+    "required_documents": [
+      "claim_form",
+      "policy",
+      "accident_report",
+      "repair_estimate",
+      "vehicle_photos"
+    ]
+  }
+]
